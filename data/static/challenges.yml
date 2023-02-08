@@ -1158,3 +1158,12 @@
   hintUrl: 'https://pwning.owasp-juice.shop/part2/score-board.html#close-multiple-challenge-solved-notifications-in-one-go'
   mitigationUrl: ~
   key: closeNotificationsChallenge
+-
+  name: 'Secret Password List'
+  category: 'Miscellaneous'
+  tags:
+    - Good for Demos
+  difficulty: 3
+  hint: 'Can a profile picture contain passwords? The JuiceShop is usually running on port 3000'
+  description: 'Access a secret password list by tricking the server into making the request for you.'
+  key: 'ssrfSecretsChallenge'
